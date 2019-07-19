@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React.js is a JavaScript library that uses it's virtual DOM to render changes. It's virtual DOM only renders new changes that have been made to the DOM instead of the DOM re-rendering all code. 
+Every component in react is easily reusable throughout the whole application by importing the name of the component into other components without rewriting any code.
+
 - [ ] What does it mean to _think_ in react?
+
+To think in ways of writing reusable components and breaking down code into modular pieces.
 
 - [ ] Describe state.
 
+State is an object that represents the parts of the app that can change and each component can maintain it's own state. React uses setState to change the state of react Component. Whenever state changes, react will re-render the component.
+
 - [ ] Describe props.
 
+Props is used to send data to components and are equivilant to parameters in vanilla JavaScript
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is anything that affects something outside the scope of the function being executed. These can be a network request, which has your code communicating with a third party and all sorts of effects that are outside the function.
 
 ## Project Set Up
 
